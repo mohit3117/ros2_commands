@@ -44,7 +44,7 @@ downgrade setuptools version from 59.6.0 to 58.2.0.
 
 - ### Creating a python package named `my_pkg` : 
 ```
-ros2 pkg create my_pkg --build-type ament_python dependencies rclpy
+ros2 pkg create --build-type ament_python my_pkg --dependencies rclpy
 ```
 
 
